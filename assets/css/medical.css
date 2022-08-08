@@ -6,14 +6,14 @@
 #header-top{
     background-color: #047eb3;
     width: 100%;
-    height: 180px;
+    height: 150px;
     display: flex;
     justify-content: center;
 }
 #header-top .container{
     width: 66%;
     height: 100px;
-    background-color: #2b70a8;
+    background-color: #047eb3;
     display: flex;
     justify-content: center;
 }
@@ -46,6 +46,7 @@
     padding-right: 8px;
 }
 
+
 .container .navbar ul li a{
     text-decoration: none;
     color: white;
@@ -67,23 +68,127 @@
     height: 50px;
     border-radius: 15px 15px 15px 15px;
     text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+
 }
 #header-bottom{
-    background-color: #2b70a8;
+    background-color: #047eb3;
     width: 100%;
-    height: 180px;
     display: flex;
     justify-content: center;
 }
 #header-bottom .container2{
     width: 66%;
     height: 66px;
-    background-color: #2b70a8;
+    background-color: #047eb3;
     justify-content: center;
-    border: 1px solid black;
-    margin-top: -90px;
+    margin-top: -60px;
 }
 
+#header-bottom .container2 .col-12 a{
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 45px;
+    color: white;
+    
+
+}
+#header-bottom .container2 .col-12 .links{
+    padding-top: 20px;
+}
+#header-bottom .container2 .col-12 .links ul li{
+    list-style:none;
+}
+#header-bottom .container2 .col-12 .links ul{
+    display: flex;
+    margin-left: -25px;
+}
+#hyperlinks{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+#hyperlinks .container3{
+    width: 66%;
+    height: 90px;
+    display: flex;
+    justify-content: center 
+}
+#hyperlinks .container3 ul{
+    display: flex;
+    text-decoration: none;
+    list-style:none;
+    margin-left: -40px;
+}
+#hyperlinks .container3 ul li a{
+    text-decoration: none;
+}
+#hyperlinks .container3 .link{
+    padding-top: 35px; 
+}
+#hyperlinks .container3 .li{
+    padding-left: -100px;
+}
+#hyperlinks .container3 .first-link{
+    padding-top: 15px;
+    padding-left: 40px;
+    text-align: center;
+    
+}
+#hyperlinks .container3 .second-link{
+    padding-top: 15px;
+    padding-left: 40px;
+    text-align: center;
+}
+#hyperlinks .container3 .third-link{
+    padding-top: 15px;
+    padding-left: 40px;
+    text-align: center;
+}
+#hyperlinks .container3 .first-class{
+    background-color: #d7eaf3;;
+    width: 320px;
+    height: 60px;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 10px;
+}
+#hyperlinks .container3 .second-class{
+    background-color: #d7eaf3;
+    width: 320px;
+    height: 60px;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 15px;
+}
+#hyperlinks .container3 .third-class{
+    background-color: #d7eaf3; ;
+    width: 320px;
+    height: 60px;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 10px;
+}   
+#informations{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    display: flex; 
+    justify-content: center; 
+
+}
+#informations .container4{
+    width: 66%;
+    height: 400px;
+    background-color: #047eb3;
+    display: flex;
+    
+}
+#informations .container4 .info-first{
+    height: 200px;
+    
+}
 
 
 
